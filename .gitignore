@@ -1,0 +1,10 @@
+
+
+# Compiled python
+*.pyc
+
+# Pytest cache
+.cache
+
+# Virtualenv
+venv
