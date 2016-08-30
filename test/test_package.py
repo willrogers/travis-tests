@@ -1,9 +1,10 @@
-
+import package
+import package.np
 
 def test_import_package():
-    import package
+    print('Version is {}'.format(package.version()))
 
 
 def test_import_numpy():
-    import package.numpy
+    print('Numpy version is {}'.format(package.np.version()))
 
