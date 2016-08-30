@@ -13,3 +13,5 @@ def test_import_numpy():
 
 def test_import_scipy():
     print('Scipy version is {}'.format(pack.sci.version()))
+    pp = pack.sci.interpolate()
+    assert pp(1.5) == 1.5
